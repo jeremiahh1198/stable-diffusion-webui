@@ -1,5 +1,5 @@
 # NOTICE
-Modifications were made to optimize and also eliminate kernal reloading in Gradient notebooks.
+Modifications were made to optimize and also eliminate kernal reloading in Gradient notebooks. This is a custom version adjusted to fit my needs.
 
 # Stable Diffusion web UI
 A browser interface based on Gradio library for Stable Diffusion.
