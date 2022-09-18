@@ -1,6 +1,7 @@
-# Stable Diffusion web UI
-Modifications made to eliminate kernal reloading and support for Gradient.
+# NOTICE
+Modifications were made to eliminate kernal reloading and support for Gradient notebooks.
 
+# Stable Diffusion web UI
 A browser interface based on Gradio library for Stable Diffusion.
 
 ![](screenshot.png)
