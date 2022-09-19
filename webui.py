@@ -23,7 +23,7 @@ import modules.sd_models
 
 
 modules.codeformer_model.setup_codeformer()
-# modules.gfpgan_model.setup_gfpgan()
+modules.gfpgan_model.setup_gfpgan()
 shared.face_restorers.append(modules.face_restoration.FaceRestoration())
 
 esrgan.load_models(cmd_opts.esrgan_models_path)
