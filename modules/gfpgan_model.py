@@ -11,7 +11,7 @@ import modules.face_restoration
 def gfpgan_model_path():
     from modules.shared import cmd_opts
 
-    places = [script_path, '.', os.path.join(cmd_opts.gfpgan_dir, 'experiments/pretrained_models')]
+    places = [cmd_opts.gfpgan_dir]
     files = [cmd_opts.gfpgan_model] + [os.path.join(dirname, cmd_opts.gfpgan_model) for dirname in places]
     found = [x for x in files if os.path.exists(x)]
 
